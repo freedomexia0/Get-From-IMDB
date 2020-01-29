@@ -8,7 +8,7 @@ import pymongo
 import time
 
 client = pymongo.MongoClient('192.168.220.130', 27017)
-db = client.MovieDB # 或者 db = client['Test']
+db = client.MovieDB # 或者 db = client['Test'] ...
 
 def getMovie(in_url):
     mongo_collection2 = db.Movie_list
